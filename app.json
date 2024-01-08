@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Instagram",
+    "slug": "instagram-gw",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon_instagram_logo.png",
+    "splash": {
+      "image": "./assets/instagram_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gw.instagram",
+      "buildNumber": "2.0.0"
+    },
+    "android": {
+      "package": "com.gw.instagram",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon_instagram_logo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/icon_instagram_logo.png"
+    },
+    "userInterfaceStyle": "automatic"
+  }
+}
