@@ -55,7 +55,7 @@ const errorLink: ApolloLink = onError(({ graphQLErrors, networkError }) => {
 });
 
 const uploadHttpLink: ApolloLink = createUploadLink({
-  uri: "https://20c3-221-143-244-19.ngrok-free.app/graphql",
+  uri: "https://instaclone-gw-copy-5a757bac47f5.herokuapp.com/graphql",
 });
 
 //https://20c3-221-143-244-19.ngrok-free.app
@@ -74,7 +74,7 @@ const wsLink: GraphQLWsLink = new GraphQLWsLink(
 */
 
 const wsLink = new WebSocketLink({
-  uri: "ws://20c3-221-143-244-19.ngrok-free.app/graphql",
+  uri: "ws://instaclone-gw-copy-5a757bac47f5.herokuapp.com/graphql",
   options: {
     reconnect: true,
     connectionParams: () => ({
